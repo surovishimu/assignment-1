@@ -161,7 +161,7 @@ flex-shrink: 0;
     background-color: rgba(229, 84, 115, 0.10);
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
     text-align: center;
     margin-top: 90px;
     height: 80vh;
@@ -212,4 +212,35 @@ span {
 .discount-img {
     margin-right: 80px;
     padding-top: 40px;
+}
+/* instagram section design */
+.instagram-container{
+    width: 75%;
+    margin: auto;
+   text-align: center;
+   
+}
+.insta-title{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.insta-text{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+width: 500px;
+margin-left: 390px;
+margin-bottom: 30px;
+
+}
+.instagram-photo{
+    display: flex;
+    gap: 20px;
+}
+
+.flowers{
+width: 300px;
+height: 370px;
 }
