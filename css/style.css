@@ -123,4 +123,35 @@ line-height: 25px;
 .internal-featured {
     text-align: center;
     font-size: 20px;
+    
+}
+.link{
+    color: black;
+    font-weight: 600;
+}
+/*service section design */
+
+.service-container{
+display: flex;
+width:1190px ;
+height: 250px;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+justify-content: space-around;
+align-items: center;
+margin-left: 250px;
+margin-top: 80px;
+}
+.service-img{
+    text-align: center;
+    font-size: 23px;
+    padding-right: 90px;
+}
+.service-logo{
+width: 100px;
+height: 100px;
+flex-shrink: 0;
+}
+.service-text{
+    margin-top: 10px;
 }
