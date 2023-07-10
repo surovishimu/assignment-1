@@ -294,3 +294,34 @@ border: none;
 margin-left: 10px;
 }
 
+/* footer section design */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 400px;
+    margin-top: 100px;
+}
+.footer-title{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer-text{
+width: 600px;
+flex-direction: column;
+color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+
+.footer-ending{
+color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+}
